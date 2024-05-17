@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:item_name": "　のシャベル",
+      "minecraft:custom_data": {"pigm":{"type":"sugoihoreru"}},
+      "minecraft:tool":{"rules":[],"default_mining_speed":100},
+      "minecraft:attribute_modifiers":[
+        {
+          "type":"player.block_interaction_range",
+          "name":"Sugoi Horeru",
+          "amount":64.0,
+          "operation":"add_value",
+          "uuid":[-96774381,17954823,-11256372,55809160],
+          "slot":"mainhand"
+        }
+        ]
+
+    }
+  }
+}

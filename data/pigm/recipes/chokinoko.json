@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    }
+  ],
+  "result": {
+    "id": "minecraft:red_mushroom",
+    "components": {
+      "minecraft:custom_data": {"pigm":{"type":"cho_kinoko"}},
+      "minecraft:item_name": "スーパー赤色のキノコ"
+    }
+  }
+}
